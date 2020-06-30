@@ -1,0 +1,94 @@
+
+ 
+ /* Para Posicionar la imagen pero no emplaré esta forma
+.centrado
+{
+	display: block;
+	margin: auto;
+	width: 75%;
+}
+*/
+*{
+    box-sizing: border-box;
+}
+    /* Entorno de la pagina */
+.entorno{
+    background-color: #004080;
+}
+ 
+     /* 1. Posición de barra de navegación container dentro de la imagen*/
+     .container{
+         text-align: center;
+         margin: 10px;
+         padding: 20px;
+         width: 95%;
+         position: relative;
+     }
+     
+         /* 2. Barra navegación links */
+     .topnav a{
+         font-family: Georgia, Arial, Times, Comic , Helvetica;
+         color: #45B39D;
+         text-align: center;
+         padding: 10px 20px;
+         text-decoration: none;
+         font-size: larger;
+     }
+        /* 3. Cambio de color cuando se detiene uno en el botonn de un enlace */
+
+    a:hover{
+        color: #B03A2E ;
+    }
+        /* 4. Fin del arreglo de la barra de navegación*/
+       /* Arreglo del titulo de presentación */
+ 
+     h3 {
+         font-family: Georgia, Arial, Times, Comic , Helvetica;
+         font-size: 2em;
+         letter-spacing: 2px;
+         color: #FF2D5B;
+         text-align: center;
+         margin: 1px;
+     }
+ 
+         /* Segunda forma de Posicionar una imagen*/ 
+ .titulo{
+     display: block;
+     margin: auto;
+     width: 40%;
+ }
+     /* Arreglo de presentación para la sección del articulo */
+    
+     /* Arreglo del parrafo de presentación */
+     p{
+         font-family:  Georgia, Arial, Times, Comic , Helvetica;
+         font-size: 1.1em;
+         text-align: justify;
+         line-height: 2;
+         color: wheat;
+         width: 100%;
+         margin: 2px;
+         padding: 2px;
+     }
+     .espagnol{
+        font-family: Georgia, Arial, Times, Comic , Helvetica;
+        color: #45B39D;
+        text-align: center;
+        padding: 10px 20px;
+        text-decoration: none;
+        font-size: larger;
+     }
+
+     .francais{
+        font-family: Georgia, Arial, Times, Comic , Helvetica;
+        color: #45B39D;
+        text-align: center;
+        padding: 10px 20px;
+        text-decoration: none;
+        font-size: larger;
+     }
+ 
+     /* Arreglo del presentación del autor */
+  
+     /* Idiomas en la página */
+ 

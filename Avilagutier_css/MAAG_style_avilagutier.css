@@ -1,0 +1,73 @@
+  *{
+      box-sizing: border-box;
+  }
+  /* Entorno de la pagina */
+   .entorno{
+    background-color: #004080;
+    margin: 0;
+ }
+
+    /* 1. Posición de barra de navegación container dentro de la imagen*/
+    .container{
+        text-align: center;
+        margin: 10px;
+        padding: 20px;
+        width: 95%;
+        position: relative;
+    }
+    
+        /* 2. Barra navegación links */
+    .topnav a{
+        font-family: Georgia, Arial, Times, Comic , Helvetica;
+        color: #45B39D;
+        text-align: center;
+        padding: 10px 20px;
+        text-decoration: none;
+        font-size: larger;
+    }
+
+
+       /* 3. Cambio de color cuando se detiene uno en el botonn de un enlace */
+
+    a:hover{
+        color: #B03A2E ;
+    }
+       /* 4. Fin del arreglo de la barra de navegación*/
+   
+       /* Arreglo del titulo de presentación */
+
+ h3 {
+     font-family: Georgia, Arial, Times, Comic , Helvetica;
+     font-size: 2em;
+     color: #FF2D5B;
+     text-align: center;
+ }
+
+     /* Posicionamiento de la imagen AvilaGutier*/ 
+.titulo{
+ display: block;
+ margin: auto;
+ width: 30%;
+ height: 40%;
+
+}
+
+    /* Arreglo del parrafo de presentación */
+ .presentacion {
+     font-family: Georgia, Arial, Times, Comic , Helvetica;
+     font-size: 1.1em;
+     line-height: 2;
+     width: 100%;
+     margin: 2px;
+     padding: 2px;
+     text-align: justify;
+     color: wheat;
+ }
+ .circulo_cubo{
+    display: block;
+    margin: auto;
+    width: 20%;
+    height: 40%;
+ }
+
+

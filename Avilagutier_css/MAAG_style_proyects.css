@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+}
+   /* Entorno de la pagina */
+.entorno{
+    background-color: #004080;
+}
+
+      /* 1. Posición de barra de navegación container dentro de la imagen*/
+.container{
+    text-align: center;
+    margin: 10px;
+    padding: 20px;
+    width: 95%;
+    position: relative;
+}
+    
+        /* 2. Barra navegación links */
+    .topnav a{
+        font-family: Georgia, Arial, Times, Comic , Helvetica;
+        color: #45B39D;
+        text-align: center;
+        padding: 10px 20px;
+        text-decoration: none;
+        font-size: large;
+    }
+       /* 3. Cambio de color cuando se detiene uno en el botonn de un enlace */
+
+   a:hover{
+       color: #B03A2E ;
+   }
+       /* 4. Fin del arreglo de la barra de navegación*/
+      
+   /* Titulos de h3 presentación de la función de un proyecto */
+
+ h3 {
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     font-size: 1.5em;
+     color: #FF2D5B;
+     text-align: left;
+ }
+
+   /* Titulos de h4 presentación del proyecto */
+
+ h4{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.2em;
+    color: wheat;
+    text-align: left;
+ }
+
+
+   /* Formato CSS para la primera imagen  */
+
+figure{
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+
+   /* Formato para los parrafos del proyecto de investigación de curso */
+
+   .abstract{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1em;
+    color: white;
+    line-height: 2;   
+    width: 100%;
+    margin: 2px;
+    padding: 2px;
+    text-align: justify;
+ }
+ /* Formato de color para los articulos */
+
+    .articles:hover{
+        color: #45B39D;
+    }
+
+    .articles:visited{
+        color: #E74C3C;
+    }
+
+
